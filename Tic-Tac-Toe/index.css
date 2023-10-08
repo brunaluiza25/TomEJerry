@@ -1,0 +1,63 @@
+body {
+    background-image: url('img/Tic-tac-toe.png');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Alterado para "min-height" para melhorar a responsividade */
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #333;
+}
+
+button {
+    font-family: Rockwell, Courier Bold, Courier, Georgia, Times, Times New Roman, serif;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 15px 30px;
+    margin: 20px;
+    display: block;
+    background-color: #facb31;
+    color: #d40f0f;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0px 0px 40px #ff5e00;
+}
+
+button:hover {
+    background-color: #ffc400;
+}
+
+#botão {
+    position: relative;
+    left: -400px;
+}
+
+#botão2 {
+    position: relative;
+    left: -400px;
+}
+
+
+footer {
+    background-color: rgba(206, 54, 54, 0); /* Cor de fundo com transparência */
+    color: rgb(255, 0, 0);
+    text-align: center;
+    position: absolute; 
+    bottom: 0;
+    left: 0px; 
+    right: 60%; 
+    padding: 100px; 
+}
+
+footer p {
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jogue o Jogo da Velha do Tom e Jerry. Desafie um amigo em uma emocionante partida do clássico jogo de estratégia.">
+    <meta name="O jogo da velha com o tema Tom e Jerry" content="Jogo da Velha do Tom e Jerry">
+    <link rel="icon" href="img/icon.jpg" type="image/jpg">
+    <link rel="stylesheet" href="jogo.css">
+    <title>Jogo da Velha - Tom e Jerry</title>
+
+</head>
+<body>
+
+  <h1>Jogo da Velha</h1>
+    <div class="board" data-board>
+        <!-- Células do jogo da velha -->
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+    </div>
+
+    <!-- Placar -->
+    <div class="score" data-score>
+        <p class="score-text">Placar</p>
+        <p class="score-round">Rodada: 0</p>
+        <p class="score-tom">Tom: 0</p>
+        <p class="score-jerry">Jerry: 0</p>
+    </div>
+
+    <!-- Jogador atual da rodada -->
+    <div class="current-player" data-current-player>
+        Jogador Atual: <span class="current-player-name">Tom</span>
+    </div>
+
+    <!-- Mensagem de Vitória -->
+    <div class="winning-message" data-winning-message>
+        <p class="winning-message-text" data-winning-message-text></p>
+        <button class="winning-message-button" data-restart-button>
+            Reiniciar!
+        </button>
+    </div>
+  
+    <footer>
+      <p>Bruna Luiza &copy; 2023</p>
+  </footer>
+
+    <script src="jogo.js"></script>
+</body>
+</html>
